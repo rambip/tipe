@@ -2,6 +2,8 @@ name: "build website"
 on:
   push:
     branches: ["main"]
+permissions:
+  contents: write
 jobs:
   nix-build:
     runs-on: ubuntu-latest
