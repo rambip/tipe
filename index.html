@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
+<!DOCTYPE html><html lang="en"><head>
     <style>
     canvas {
         position: absolute;
@@ -33,8 +31,11 @@
         display: none;
     }
     </style>
-    </head>
+    
+<link rel="preload" href="/demo_tipe-b22bbdbdacc89bb1_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
+<link rel="modulepreload" href="/demo_tipe-b22bbdbdacc89bb1.js"></head>
     <body>
-        <link data-trunk rel="rust" href="Cargo.toml" data-wasm-opt="z"/>
-    </body>
-</html>
+        <script type="module">import init from '/demo_tipe-b22bbdbdacc89bb1.js';init('/demo_tipe-b22bbdbdacc89bb1_bg.wasm');</script>
+    
+
+</body></html>
