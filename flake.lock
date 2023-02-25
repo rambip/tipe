@@ -123,11 +123,11 @@
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1677342257,
-        "narHash": "sha256-00WAANjAdnVP9DTE9EQ3IburLRx4clRU+rwRCTRfanU=",
+        "lastModified": 1677346463,
+        "narHash": "sha256-benkXS7+t5FBQtmBNpxCodEMSjJmlNvpuppT4x+M19Y=",
         "owner": "rambip",
         "repo": "wasm-tooling",
-        "rev": "547c30b4523fd9ebea00d32d301f019b983a33bc",
+        "rev": "8529236d318b83e38a6cd7ee7b37c264ba32c76c",
         "type": "github"
       },
       "original": {

@@ -9,6 +9,7 @@
             in
             tooling.rust.buildWithTrunk {
                 src = ./.;
+                fixRelativeUrl = true;
             };
         devShell.x86_64-linux = 
             let pkgs = import nixpkgs {system = "x86_64-linux";};
